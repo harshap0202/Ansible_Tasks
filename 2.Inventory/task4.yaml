@@ -1,0 +1,11 @@
+#We have updated the /home/bob/playbooks/inventory file and added a group called web_servers for web servers. Similarly, add a group called db_servers for database servers.
+
+db1 ansible_host=server4.company.com ansible_connection=winrm ansible_user=admi$
+
+[web_servers]
+web1
+web2
+web3
+
+[db_servers]
+db1
